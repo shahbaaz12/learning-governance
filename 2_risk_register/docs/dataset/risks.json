@@ -1,0 +1,38 @@
+[
+  {
+    "risk_id": "R-001",
+    "harm": "Incorrect leave advice",
+    "affected_people": [
+      "employees"
+    ],
+    "owner": "HR operations",
+    "control": "Compare answers with approved policy",
+    "evidence_id": "EV-001",
+    "unresolved_concern": "Rare paraphrases are not covered.",
+    "review_status": "pending"
+  },
+  {
+    "risk_id": "R-002",
+    "harm": "Employee information exposed",
+    "affected_people": [
+      "employees named in records"
+    ],
+    "owner": "",
+    "control": "Restrict document access",
+    "evidence_id": "EV-002",
+    "unresolved_concern": "",
+    "review_status": "pending"
+  },
+  {
+    "risk_id": "R-003",
+    "harm": "Unequal help for contractors",
+    "affected_people": [
+      "contractors"
+    ],
+    "owner": "HR operations",
+    "control": "Review contractor questions",
+    "evidence_id": "EV-MISSING",
+    "unresolved_concern": "Contractor tests are missing.",
+    "review_status": "pending"
+  }
+]

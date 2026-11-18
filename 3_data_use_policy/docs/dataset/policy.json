@@ -1,0 +1,12 @@
+{
+  "provenance": "fictional example policy",
+  "classification_audiences": {
+    "public": [
+      "employee",
+      "hr"
+    ],
+    "restricted": [
+      "hr"
+    ]
+  }
+}

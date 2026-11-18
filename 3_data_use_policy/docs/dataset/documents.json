@@ -1,0 +1,37 @@
+[
+  {
+    "data_id": "POLICY-1",
+    "classification": "public",
+    "permitted_purposes": [
+      "answer_hr_policy"
+    ],
+    "permitted_audiences": [
+      "employee",
+      "hr"
+    ],
+    "expires_on": "2026-12-01"
+  },
+  {
+    "data_id": "EMPLOYEE-1",
+    "classification": "restricted",
+    "permitted_purposes": [
+      "answer_hr_policy"
+    ],
+    "permitted_audiences": [
+      "hr"
+    ],
+    "expires_on": "2026-12-01"
+  },
+  {
+    "data_id": "OLD-POLICY",
+    "classification": "public",
+    "permitted_purposes": [
+      "answer_hr_policy"
+    ],
+    "permitted_audiences": [
+      "employee",
+      "hr"
+    ],
+    "expires_on": "2026-11-15"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "EV-001": {
+    "provenance": "fictional test observation",
+    "summary": "Common leave examples inspected; paraphrases remain.",
+    "review_status": "draft"
+  },
+  "EV-002": {
+    "provenance": "fictional test observation",
+    "summary": "One restricted-access example inspected.",
+    "review_status": "draft"
+  }
+}

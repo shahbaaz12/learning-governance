@@ -1,0 +1,23 @@
+{
+  "provenance": "learner-owned; unfilled",
+  "reviews": [
+    {
+      "risk_id": "R-001",
+      "reviewer_id": null,
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "risk_id": "R-002",
+      "reviewer_id": null,
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "risk_id": "R-003",
+      "reviewer_id": null,
+      "decision": "pending",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "system_id": "HR-001",
+    "name": "HR policy assistant",
+    "purpose": "Explain approved leave policies.",
+    "owner": "HR operations",
+    "next_review_on": "2026-12-01"
+  },
+  {
+    "system_id": "HR-002",
+    "name": "Leave request helper",
+    "purpose": "Prepare leave requests for a manager to review.",
+    "owner": "",
+    "next_review_on": "2026-12-01"
+  },
+  {
+    "system_id": "HR-003",
+    "name": "Benefits question helper",
+    "purpose": "Explain published benefits policies.",
+    "owner": "HR operations",
+    "next_review_on": "2026-11-15"
+  }
+]

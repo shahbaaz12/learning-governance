@@ -1,0 +1,36 @@
+{
+  "missing": null,
+  "failing": {
+    "provenance": "synthetic evaluation fixture; no model was evaluated",
+    "report_id": "REPORT-FAIL",
+    "release_id": "hr-v1",
+    "quality_dataset": "hr-questions-v1",
+    "privacy_dataset": "hr-privacy-v1",
+    "correct": 80,
+    "total": 100,
+    "privacy_failures": 1,
+    "privacy_tests": 20
+  },
+  "wrong_version": {
+    "provenance": "synthetic evaluation fixture; no model was evaluated",
+    "report_id": "REPORT-OLD",
+    "release_id": "hr-v0",
+    "quality_dataset": "hr-questions-v1",
+    "privacy_dataset": "hr-privacy-v1",
+    "correct": 94,
+    "total": 100,
+    "privacy_failures": 0,
+    "privacy_tests": 20
+  },
+  "passing": {
+    "provenance": "synthetic evaluation fixture; no model was evaluated",
+    "report_id": "REPORT-CURRENT",
+    "release_id": "hr-v1",
+    "quality_dataset": "hr-questions-v1",
+    "privacy_dataset": "hr-privacy-v1",
+    "correct": 94,
+    "total": 100,
+    "privacy_failures": 0,
+    "privacy_tests": 20
+  }
+}

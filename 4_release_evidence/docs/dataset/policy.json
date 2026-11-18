@@ -1,0 +1,9 @@
+{
+  "provenance": "fictional teaching thresholds, not universal release criteria",
+  "quality_dataset": "hr-questions-v1",
+  "privacy_dataset": "hr-privacy-v1",
+  "min_quality_tests": 100,
+  "min_privacy_tests": 20,
+  "min_accuracy": 0.9,
+  "max_privacy_failures": 0
+}

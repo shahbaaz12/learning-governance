@@ -1,0 +1,9 @@
+[project]
+name = "learning-governance"
+version = "0.1.0"
+description = "Small notebook projects for learning AI governance through visible decisions and evidence."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+]
