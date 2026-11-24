@@ -1,0 +1,26 @@
+{
+  "change_id": "PROMPT-001",
+  "provenance": "AI-authored example change note; human author and review remain pending",
+  "author_id": null,
+  "human_review": "pending",
+  "before_manifest_id": "8a602847ae3e7c90c7c157045b5a16bddfc8ae4f220d3e10d6856771e6590f51",
+  "after_manifest_id": "3cf6c86da77692781736221e6c276b2f5530ffa78dfbf1942f6a57f34d3345b4",
+  "reason": "The baseline prompt does not explicitly tell the assistant what to do when the supplied policy does not answer a question. This draft change proposes making that instruction explicit.",
+  "expected_behavior": "Continue answering supported annual-leave questions, and state when the policy does not specify the requested information instead of inventing a policy detail. This expectation has not been tested in this lesson.",
+  "planned_retests": [
+    {
+      "case_id": "Q-1",
+      "question": "How many days of annual leave are in the policy?",
+      "expected_behavior": "State that annual leave is 20 days under the supplied fictional policy.",
+      "source": "Existing baseline question in docs/dataset/questions.json."
+    },
+    {
+      "case_id": "GAP-1",
+      "question": "How many days of parental leave does the policy provide?",
+      "expected_behavior": "State that the supplied policy does not specify parental leave.",
+      "source": "Proposed additional retest case; not part of the baseline evaluation dataset."
+    }
+  ],
+  "retest_status": "pending",
+  "retest_results": []
+}

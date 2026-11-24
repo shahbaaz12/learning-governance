@@ -65,7 +65,7 @@ The lessons use Python's standard library; `ipykernel` runs them in VS Code.
 | [3. Data use policy](3_data_use_policy/readme.md) | Check permitted purposes, document access, and expiry dates. | Prepared; learner run pending |
 | [4. Release evidence](4_release_evidence/readme.md) | Check that required evaluation evidence passes and belongs to this release. | Prepared; learner run pending |
 | [5. Human approval](5_human_approval/readme.md) | Check reviewer authority and approval for a specific release. | Prepared; learner run pending |
-| [6. Change control](6_change_control/readme.md) | Change a prompt and see why previous evidence and approval no longer match. | Prepared; learner run pending |
+| [6. Change control](6_change_control/readme.md) | Link a prompt change to its intent, expected behavior, planned retests, and before/after versions. | Prepared; learner run pending |
 | [7. Incident response](7_incident_response/readme.md) | Suspend a local assistant and inspect the evidence required for recovery. | Prepared; learner run pending |
 | [8. Governed HR assistant](8_governed_hr_assistant/readme.md) | Combine checks before responding and save a decision report. | Prepared; learner run pending |
 
@@ -73,7 +73,7 @@ Work through one project at a time. Each project README explains its inputs,
 helper files, expected observations, and notebook order. All example records
 are fictional; synthetic report counts are not measured model performance.
 
-The eight notebooks contain 50 code cells. Delivered outputs are empty.
+The eight notebooks contain 51 code cells. Delivered outputs are empty.
 Projects 1-7 write no files. Project 8's final cell writes separate baseline
 and candidate JSON/Markdown reports in its `docs/evalresults/` folder,
 preserving previous reports. Learner review and approval templates start pending;
@@ -84,11 +84,12 @@ Projects 6 and 8 reproduce across platforms. Those projects contain fixed,
 explicitly fictional evaluation and approval bindings. Running a notebook does
 not refresh them automatically to approve changed artifacts.
 
-Verification on 24 November 2026 executed all 50 code cells and 46 focused
-approval, change-control, recovery, and enforcement checks from an isolated
-staged checkout. Network access was disabled. Inputs, notebook outputs, and
-learner records stayed unchanged. Project 8's report writing was checked in
-temporary storage outside the published tree.
+The published baseline was verified on 24 November 2026 with 50 code cells and
+46 focused governance checks from an isolated staged checkout. The subsequent
+change-note update passed all 51 current code cells and 17 note-consistency
+checks. Network access was disabled. Inputs, notebook outputs, and learner
+records stayed unchanged. Project 8's report writing was checked in temporary
+storage. These checks do not run the model retests planned in the change note.
 
 The topic selection draws on the voluntary
 [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/).
