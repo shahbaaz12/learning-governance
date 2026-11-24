@@ -1,0 +1,15 @@
+{
+  "ir-1": {
+    "provenance": "fictional app-owned authority fixture",
+    "active": true,
+    "roles": [
+      "incident_owner"
+    ]
+  },
+  "dev-1": {
+    "active": true,
+    "roles": [
+      "developer"
+    ]
+  }
+}

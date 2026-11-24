@@ -1,0 +1,40 @@
+{
+  "pending": {
+    "provenance": "fictional approval fixture, not a human action",
+    "reviewer_id": null,
+    "release_id": "hr-v1",
+    "decision": "pending"
+  },
+  "rejected": {
+    "provenance": "fictional approval fixture, not a human action",
+    "reviewer_id": "hr-1",
+    "release_id": "hr-v1",
+    "decision": "rejected"
+  },
+  "unauthorized": {
+    "provenance": "fictional approval fixture, not a human action",
+    "reviewer_id": "dev-1",
+    "release_id": "hr-v1",
+    "decision": "approved",
+    "role": "release_reviewer",
+    "admin": true
+  },
+  "wrong_version": {
+    "provenance": "fictional approval fixture, not a human action",
+    "reviewer_id": "hr-1",
+    "release_id": "hr-v0",
+    "decision": "approved"
+  },
+  "approved_fixture": {
+    "provenance": "fictional approval fixture, not a human action",
+    "reviewer_id": "hr-1",
+    "release_id": "hr-v1",
+    "decision": "approved"
+  },
+  "inactive_reviewer": {
+    "provenance": "fictional approval fixture, not a human action",
+    "reviewer_id": "hr-inactive",
+    "release_id": "hr-v1",
+    "decision": "approved"
+  }
+}

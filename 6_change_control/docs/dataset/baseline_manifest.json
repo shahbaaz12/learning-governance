@@ -1,0 +1,26 @@
+{
+  "release_id": "hr-v1",
+  "artifacts": {
+    "code": {
+      "path": "models/demo.py",
+      "sha256": "affc90e4b1148186673494027198dad99f2cc9ac82f61f0d3fd14453f0732a9b"
+    },
+    "model": {
+      "path": "models/model.json",
+      "sha256": "c930dbcedccd86f17268e3226dee8c524a6b71d084585e43940b9576d20d6546"
+    },
+    "prompt": {
+      "path": "prompts/answer.txt",
+      "sha256": "eb0830e9be573be7128e955fd0858cadd3dff566ec30a578fbd5540cb434f4c1"
+    },
+    "dataset": {
+      "path": "docs/dataset/questions.json",
+      "sha256": "27eb75d9b4447a0c76689fc2e244b1329eced434f824e41eb285f554ff49dd33"
+    },
+    "policy": {
+      "path": "docs/dataset/policy.json",
+      "sha256": "36d4d561e386c2c1b019ed0f76f68aec704996637c7ef72de5f078cf37843d5e"
+    }
+  },
+  "manifest_id": "8a602847ae3e7c90c7c157045b5a16bddfc8ae4f220d3e10d6856771e6590f51"
+}

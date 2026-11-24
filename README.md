@@ -15,7 +15,7 @@ We build small examples of **AI governance**: deciding who is responsible, what
 the application may do, what evidence is needed, and how people handle changes
 and incidents. We use fictional HR application records throughout the lessons.
 
-These four notebooks read a few JSON records, run small Python checks, and show
+These eight notebooks read a few JSON records, run small Python checks, and show
 decisions with reasons. All lessons run locally and need no model calls or API
 keys. Human judgments remain separate from technical checks.
 
@@ -64,19 +64,31 @@ The lessons use Python's standard library; `ipykernel` runs them in VS Code.
 | [2. Risk register](2_risk_register/readme.md) | Record possible harm, affected people, controls, and who must review unresolved risks. | Prepared; learner run pending |
 | [3. Data use policy](3_data_use_policy/readme.md) | Check permitted purposes, document access, and expiry dates. | Prepared; learner run pending |
 | [4. Release evidence](4_release_evidence/readme.md) | Check that required evaluation evidence passes and belongs to this release. | Prepared; learner run pending |
+| [5. Human approval](5_human_approval/readme.md) | Check reviewer authority and approval for a specific release. | Prepared; learner run pending |
+| [6. Change control](6_change_control/readme.md) | Change a prompt and see why previous evidence and approval no longer match. | Prepared; learner run pending |
+| [7. Incident response](7_incident_response/readme.md) | Suspend a local assistant and inspect the evidence required for recovery. | Prepared; learner run pending |
+| [8. Governed HR assistant](8_governed_hr_assistant/readme.md) | Combine checks before responding and save a decision report. | Prepared; learner run pending |
 
 Work through one project at a time. Each project README explains its inputs,
 helper files, expected observations, and notebook order. All example records
 are fictional; synthetic report counts are not measured model performance.
 
-The four notebooks contain 24 code cells. Delivered outputs are empty, and
-the notebooks write no files or human decisions. The review template in
-Project 2 starts pending so you can record your own judgment separately.
+The eight notebooks contain 50 code cells. Delivered outputs are empty.
+Projects 1-7 write no files. Project 8's final cell writes separate baseline
+and candidate JSON/Markdown reports in its `docs/evalresults/` folder,
+preserving previous reports. Learner review and approval templates start pending;
+the notebooks never fill in human decisions on your behalf.
 
-Verification on 18 November 2026 executed all 24 code cells and 55 focused
-checks from an isolated copy of the published files. Network access was
-disabled. The checks passed without changing inputs, notebook outputs, or
-learner review records.
+The repository fixes text line endings to LF so the file fingerprints in
+Projects 6 and 8 reproduce across platforms. Those projects contain fixed,
+explicitly fictional evaluation and approval bindings. Running a notebook does
+not refresh them automatically to approve changed artifacts.
+
+Verification on 24 November 2026 executed all 50 code cells and 46 focused
+approval, change-control, recovery, and enforcement checks from an isolated
+staged checkout. Network access was disabled. Inputs, notebook outputs, and
+learner records stayed unchanged. Project 8's report writing was checked in
+temporary storage outside the published tree.
 
 The topic selection draws on the voluntary
 [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/).

@@ -1,0 +1,54 @@
+{
+  "release_id": "hr-v1",
+  "artifacts": {
+    "code": {
+      "path": "models/demo.py",
+      "sha256": "8d87572222762bd55139e51db20f11a0d9e919828edbffc7b2ed63b194779d22"
+    },
+    "model": {
+      "path": "models/model.json",
+      "sha256": "c930dbcedccd86f17268e3226dee8c524a6b71d084585e43940b9576d20d6546"
+    },
+    "prompt": {
+      "path": "prompts/answer.txt",
+      "sha256": "eb0830e9be573be7128e955fd0858cadd3dff566ec30a578fbd5540cb434f4c1"
+    },
+    "dataset": {
+      "path": "docs/dataset/questions.json",
+      "sha256": "27eb75d9b4447a0c76689fc2e244b1329eced434f824e41eb285f554ff49dd33"
+    },
+    "policy": {
+      "path": "docs/dataset/policy.json",
+      "sha256": "208759cd7f2dba4cb9f6c7935292aa61af58cfc58fbf327aec6e5997c588ef1a"
+    },
+    "check_governance": {
+      "path": "tools/governance.py",
+      "sha256": "6b8f9f420f2576e3408110d03add69504971f5261ed4e7e028db8f2eb72d9ecd"
+    },
+    "check_inventory": {
+      "path": "tools/inventory.py",
+      "sha256": "572b34f80b367f9a2d39956324adb5fe0d64e17a57cc534660763f826da83e86"
+    },
+    "check_data_policy": {
+      "path": "tools/data_policy.py",
+      "sha256": "74e658d5d70b0a4dccd71c21e4c4403efb43ed605184595bf251f0695f3532b4"
+    },
+    "check_evidence": {
+      "path": "tools/evidence.py",
+      "sha256": "2ecaed1649caa8a74b13cfe348adbbed65d21a3eafc9b8a6b5e9d6629d99e4b2"
+    },
+    "check_approvals": {
+      "path": "tools/approvals.py",
+      "sha256": "e06a9554b8f94ffb45345391980fc3ea7baf375010955f6d007682279037da6b"
+    },
+    "check_manifest": {
+      "path": "tools/manifest.py",
+      "sha256": "d9eaa5a7a824f63002b30ccbba8443011d7b828a6bae3f4ed29641660de84750"
+    },
+    "reporting_code": {
+      "path": "tools/reports.py",
+      "sha256": "634feb1369ed5e080f374ccbff4a881affb357f7f9d618baee1f8cc85b499038"
+    }
+  },
+  "manifest_id": "3f7fc298c87cd4b172356ebb3fccb3e32b6e68c9041c1ae91c640b5e79eb467d"
+}

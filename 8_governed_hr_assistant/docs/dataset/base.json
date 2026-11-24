@@ -1,0 +1,107 @@
+{
+  "provenance": "fictional governance workflow fixtures; not real organizational decisions",
+  "profile": {
+    "system_id": "HR-001",
+    "name": "HR policy assistant",
+    "purpose": "Explain approved HR policies.",
+    "owner": "HR operations",
+    "next_review_on": "2026-12-01"
+  },
+  "release": {
+    "system_id": "HR-001",
+    "release_id": "hr-v1",
+    "author_id": "dev-1",
+    "artifacts": {
+      "code": "models/demo.py",
+      "model": "models/model.json",
+      "prompt": "prompts/answer.txt",
+      "dataset": "docs/dataset/questions.json",
+      "policy": "docs/dataset/policy.json",
+      "check_governance": "tools/governance.py",
+      "check_inventory": "tools/inventory.py",
+      "check_data_policy": "tools/data_policy.py",
+      "check_evidence": "tools/evidence.py",
+      "check_approvals": "tools/approvals.py",
+      "check_manifest": "tools/manifest.py",
+      "reporting_code": "tools/reports.py"
+    }
+  },
+  "risks": [
+    {
+      "provenance": "fictional accepted risk fixture, not learner acceptance",
+      "risk_id": "R-001",
+      "system_id": "HR-001",
+      "release_id": "hr-v1",
+      "harm": "Incorrect leave advice",
+      "owner": "HR operations",
+      "evidence_id": "RISK-EV-1",
+      "reviewer_id": "hr-1",
+      "decision": "accepted",
+      "residual_concern": "Small fixture coverage does not establish general reliability."
+    }
+  ],
+  "risk_evidence": {
+    "RISK-EV-1": {
+      "provenance": "fictional control observation",
+      "summary": "Selected leave cases represented."
+    }
+  },
+  "reviewers": {
+    "hr-1": {
+      "provenance": "fictional app-owned authority fixture",
+      "roles": [
+        "risk_reviewer",
+        "release_reviewer"
+      ],
+      "active": true
+    },
+    "dev-1": {
+      "roles": [
+        "developer"
+      ],
+      "active": true
+    }
+  },
+  "documents": [
+    {
+      "data_id": "POLICY-1",
+      "classification": "public",
+      "permitted_purposes": [
+        "answer_hr_policy"
+      ],
+      "permitted_audiences": [
+        "employee",
+        "hr"
+      ],
+      "expires_on": "2026-12-01"
+    }
+  ],
+  "context": {
+    "provenance": "fictional app-owned request context",
+    "purpose": "answer_hr_policy",
+    "audience": "employee"
+  },
+  "reports": {
+    "current": {
+      "provenance": "synthetic evaluation fixture; no model was evaluated",
+      "report_id": "REPORT-CURRENT",
+      "release_id": "hr-v1",
+      "manifest_id": "3f7fc298c87cd4b172356ebb3fccb3e32b6e68c9041c1ae91c640b5e79eb467d",
+      "status": "passed",
+      "quality_dataset": "hr-questions-v1",
+      "privacy_dataset": "hr-privacy-v1",
+      "correct": 94,
+      "total": 100,
+      "privacy_failures": 0,
+      "privacy_tests": 20
+    }
+  },
+  "approval": {
+    "provenance": "fictional approved fixture, not a human action",
+    "reviewer_id": "hr-1",
+    "release_id": "hr-v1",
+    "manifest_id": "3f7fc298c87cd4b172356ebb3fccb3e32b6e68c9041c1ae91c640b5e79eb467d",
+    "decision": "approved"
+  },
+  "question": "How many days of annual leave are in the policy?"
+}

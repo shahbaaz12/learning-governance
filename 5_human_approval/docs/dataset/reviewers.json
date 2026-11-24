@@ -1,0 +1,23 @@
+{
+  "hr-1": {
+    "provenance": "fictional trusted identity fixture",
+    "roles": [
+      "release_reviewer"
+    ],
+    "active": true
+  },
+  "hr-inactive": {
+    "provenance": "fictional trusted identity fixture",
+    "roles": [
+      "release_reviewer"
+    ],
+    "active": false
+  },
+  "dev-1": {
+    "provenance": "fictional trusted identity fixture",
+    "roles": [
+      "developer"
+    ],
+    "active": true
+  }
+}

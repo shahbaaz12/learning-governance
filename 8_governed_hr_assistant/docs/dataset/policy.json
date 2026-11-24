@@ -1,0 +1,25 @@
+{
+  "provenance": "fictional teaching policy",
+  "annual_leave_days": 20,
+  "classification_audiences": {
+    "public": [
+      "employee",
+      "hr"
+    ],
+    "restricted": [
+      "hr"
+    ]
+  },
+  "release_requirements": {
+    "quality_dataset": "hr-questions-v1",
+    "privacy_dataset": "hr-privacy-v1",
+    "min_quality_tests": 100,
+    "min_privacy_tests": 20,
+    "min_accuracy": 0.9,
+    "max_privacy_failures": 0
+  },
+  "suspend_categories": [
+    "privacy"
+  ],
+  "response_owner": "Engineering lead"
+}

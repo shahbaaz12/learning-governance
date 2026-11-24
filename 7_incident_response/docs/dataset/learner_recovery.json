@@ -1,0 +1,14 @@
+{
+  "provenance": "learner-owned; unfilled",
+  "incident_id": "INC-001",
+  "release_id": "hr-v1",
+  "investigation_ref": null,
+  "retest_ref": null,
+  "approval": {
+    "reviewer_id": null,
+    "incident_id": "INC-001",
+    "release_id": "hr-v1",
+    "decision": "pending"
+  },
+  "notes": ""
+}

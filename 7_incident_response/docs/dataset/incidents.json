@@ -1,0 +1,18 @@
+[
+  {
+    "incident_id": "INC-001",
+    "system_id": "HR-001",
+    "category": "privacy",
+    "confirmation": "confirmed",
+    "status": "resolved",
+    "provenance": "fictional confirmed incident"
+  },
+  {
+    "incident_id": "INC-002",
+    "system_id": "HR-001",
+    "category": "privacy",
+    "confirmation": "unconfirmed",
+    "status": "open",
+    "provenance": "fictional report requiring investigation"
+  }
+]

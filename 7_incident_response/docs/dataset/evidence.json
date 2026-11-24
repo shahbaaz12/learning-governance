@@ -1,0 +1,17 @@
+{
+  "investigations": {
+    "INV-001": {
+      "provenance": "fictional containment fixture",
+      "incident_id": "INC-001",
+      "contained": true
+    }
+  },
+  "retests": {
+    "RETEST-001": {
+      "provenance": "synthetic retest fixture, not executed by this notebook",
+      "incident_id": "INC-001",
+      "release_id": "hr-v1",
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "case_id": "ready_fixture",
+    "report_id": "current",
+    "prompt_file": "prompts/answer.txt",
+    "incidents": []
+  },
+  {
+    "case_id": "missing_evidence",
+    "report_id": null,
+    "prompt_file": "prompts/answer.txt",
+    "incidents": []
+  },
+  {
+    "case_id": "changed_prompt",
+    "report_id": "current",
+    "prompt_file": "prompts/candidate_answer.txt",
+    "incidents": []
+  },
+  {
+    "case_id": "suspended",
+    "report_id": "current",
+    "prompt_file": "prompts/answer.txt",
+    "incidents": [
+      {
+        "incident_id": "INC-001",
+        "system_id": "HR-001",
+        "category": "privacy",
+        "confirmation": "confirmed",
+        "status": "resolved",
+        "provenance": "fictional incident; recovery not established in this capstone"
+      }
+    ]
+  }
+]

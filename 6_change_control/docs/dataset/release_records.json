@@ -1,0 +1,16 @@
+{
+  "provenance": "authored fictional records, pinned once to bundled baseline artifacts; not refreshed by notebook",
+  "evaluation": {
+    "release_id": "hr-v1",
+    "manifest_id": "8a602847ae3e7c90c7c157045b5a16bddfc8ae4f220d3e10d6856771e6590f51",
+    "status": "passed",
+    "provenance": "synthetic result fixture"
+  },
+  "approval": {
+    "release_id": "hr-v1",
+    "manifest_id": "8a602847ae3e7c90c7c157045b5a16bddfc8ae4f220d3e10d6856771e6590f51",
+    "decision": "approved",
+    "reviewer_id": "fictional-hr-reviewer",
+    "provenance": "fictional approval fixture"
+  }
+}

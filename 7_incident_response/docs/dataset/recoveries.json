@@ -1,0 +1,16 @@
+{
+  "INC-001": {
+    "provenance": "fictional recovery fixture",
+    "incident_id": "INC-001",
+    "release_id": "hr-v1",
+    "investigation_ref": "INV-001",
+    "retest_ref": null,
+    "approval": {
+      "provenance": "fictional approval fixture",
+      "reviewer_id": "ir-1",
+      "incident_id": "INC-001",
+      "release_id": "hr-v1",
+      "decision": "approved"
+    }
+  }
+}

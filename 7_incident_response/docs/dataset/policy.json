@@ -1,0 +1,7 @@
+{
+  "provenance": "fictional example policy",
+  "suspend_categories": [
+    "privacy"
+  ],
+  "response_owner": "Engineering lead"
+}

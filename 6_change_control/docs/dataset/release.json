@@ -1,0 +1,10 @@
+{
+  "release_id": "hr-v1",
+  "artifacts": {
+    "code": "models/demo.py",
+    "model": "models/model.json",
+    "prompt": "prompts/answer.txt",
+    "dataset": "docs/dataset/questions.json",
+    "policy": "docs/dataset/policy.json"
+  }
+}
